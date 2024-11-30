@@ -1,0 +1,296 @@
+
+footer{
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #000000;
+    color: rgb(72, 112, 112);
+    font-family: 'Oswald';
+}
+footer .colonne{
+    width: 28%;
+    margin: 0px;
+    text-align: center;
+       
+}
+.colonne div a{
+    color: aliceblue;
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.colonne div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    
+}
+footer img{
+    margin-top: px;
+    height: 3vw;
+    width: 3vw;
+}
+.discontinu{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255); /* Couleur de fond noire */
+    color: rgb(255, 255, 255); /* Couleur du texte blanche pour contraster */
+    padding: 20px;
+}
+.skill-name{
+    color: #000000;
+}
+#skills-section {
+    padding: 50px;
+    color: #000000;
+  }
+  
+#skills-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+.skill {
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  
+  .skill-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .skill-bar {
+    height: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .skill-bar:hover {
+    background-color: #ff0404;
+  }
+
+body{
+    padding: 0 2%;
+    margin: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+nav .profile{
+    display: flex;
+    align-items: center;
+
+}
+nav .profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+nav .profile h1{
+    margin-left: 10px;
+    font-size: 15px; 
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+
+}
+nav ul li:hover{
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    
+}
+#webimg{
+    max-width: 500px;
+    
+    height: auto;
+}
+.page-content{
+    margin: 4%;
+}
+.page-content header{
+    margin: 5%;
+    max-width: 80%;
+}
+video{
+    width: 100%;
+    height: auto;
+}
+.page-content header h1{
+    font-family: 'Oswald','sans-serif';
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 6vw;
+}
+.page-content header p{
+    
+    font-family: 'Oswald';
+    line-height: 30px;
+    color: #818181;
+}
+.page-content header button{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}   
+.page-content header button:hover{
+    background-color: inherit;
+    color: #ccc;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000000;
+}
+
+.page-content .presentation-image {
+    width: 100%; /* S'assure que le conteneur occupe toute la largeur */
+    margin: 0; /* Supprime les marges inutiles */
+    padding: 0;
+}
+.page-content .presentation-image img {
+    display: block; /* Supprime les marges automatiques des images */
+    max-width: 100%; /* Empêche l'image de dépasser les limites */
+    width: 100%; /* Fait occuper 100% de la largeur de son conteneur */
+    height: auto; /* Maintient les proportions */
+}
+.page-content .presentation-image img:hover {
+    filter: brightness(50%);
+    transition: filter 0.5s;
+    display: block; /* Supprime les marges automatiques des images */
+    max-width: 100%; /* Empêche l'image de dépasser les limites */
+    width: 100%; /* Fait occuper 100% de la largeur de son conteneur */
+    height: auto; /* Maintient les proportions */
+}
+.page-content .project-section {
+    margin-top: 6%;
+
+}
+.page-content .project-section .projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+.page-content .project-section .projects .project h4{
+    font-family: 'Oswald';
+
+    margin-bottom: 2px;
+    margin-top: 5px;
+
+}
+.page-content .project-section a{
+    color:#000000;
+    text-decoration: none;
+    height: 320px;
+    max-width: 23%;
+    margin-right: 1%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.5);
+    
+
+}
+.page-content .project-section .projects .project p{
+    color: #000000;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 20px;
+}
+
+.page-content .project-section #p1{
+    font-size: 20px;
+    color: grey;
+
+}
+.page-content .project-section .projects .project:hover {
+    transform: scale(1.05);
+}
+.page-content .project-section .dates{
+    font-size: 13px;
+    color: grey;
+    font-family: 'Oswald';
+
+    
+
+}
+
+.page-content .project-section video {
+    margin: 2px;
+    width: 100%;
+    height: 35%;
+    display: block;
+}
+.imaage{
+    width: 100%;
+    height: 15vw;
+}
+.page-content .project-section h1{
+    font-family: 'oswald';
+    text-transform: uppercase;
+    font-size: 3vw;
+
+}
+#image_container{
+    height: 300px;
+}
+.maison_3d{
+    width: 32%;
+    height: 100%;
+}
+
+@media screen and (max-width: 700px){
+    nav{
+        justify-content: center;
+     
+}   
+    #image_container{
+        height: 150px;
+    }
+    nav ul {
+    display: none;
+
+    }
+    .page-content header{
+        margin-top: 10%;
+        max-width: 100%;
+    }
+}
